@@ -39,8 +39,6 @@ const main = () => {
 
     // 転置した配列を結合
     const foo = transposedText.map(arr => arr.join(""))
-    console.log(foo)
-    console.log(foo.reverse())
     const bar = foo.reverse().join("\n");
 
     // クリップボードへ書き込む
