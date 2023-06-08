@@ -44,14 +44,13 @@ const main = () => {
     //   ["　", "お"]          ["お", "　"]
     // ]                    ]
     _rotate = arr => arr[0].map((_, c) => arr.map(r => r[c]).reverse());
-    const transposedText = _rotate(matrix)
+    const rotatedMatrix = _rotate(matrix)
 
     // 回転した配列を結合
-    const foo = transposedText.map(arr => arr.join(""))
-    const bar = foo.reverse().join("\n");
+    const rotatedText = rotatedMatrix.map(arr => arr.join("")).join("\n")
 
     // クリップボードへ書き込む
     if(navigator.clipboard){
-        navigator.clipboard.writeText(bar);
+        navigator.clipboard.writeText(rotatedText);
     }
 };
