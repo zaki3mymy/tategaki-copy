@@ -1,22 +1,18 @@
 {
-    "manifest_version": 3,
-    "name": "縦書きコピー",
-    "description": "選択した文字を縦書きにしてクリップボードにコピーします。",
-    "version": "1.0.1",
-    "action": {
-        "default_icon": "icon/icon16.png"
-    },
-    "icons": {
-        "16": "icon/icon16.png",
-        "48": "icon/icon48.png",
-        "128": "icon/icon128.png"
-    },
-    "permissions": [
-        "activeTab",
-        "scripting",
-        "contextMenus"
-    ],
-    "background": {
-        "service_worker": "background.js"
-    }
+  "manifest_version": 3,
+  "name": "縦書きコピー",
+  "description": "選択した文字を縦書きにしてクリップボードにコピーします。",
+  "version": "1.0.1",
+  "action": {
+    "default_icon": "icon/icon16.png"
+  },
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "permissions": ["activeTab", "scripting", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "name": "tategaki-copy",
+  "version": "1.0.1",
+  "description": "Tategaki Copy is an extension for Google Chrome. You can converts the selected text to vertical writing and copies it to the clipboard.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "fix": "prettier --write",
+    "test": "jest"
+  },
+  "author": "zaki3mymy",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8"
+  }
+}
