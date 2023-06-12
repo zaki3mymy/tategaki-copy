@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint",
-    "fix": "prettier",
+    "fix": "prettier --write",
     "test": "jest"
   },
   "author": "zaki3mymy",
