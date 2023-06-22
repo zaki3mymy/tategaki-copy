@@ -6,13 +6,15 @@
   "scripts": {
     "lint": "eslint",
     "fix": "prettier --write",
-    "test": "jest"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "author": "zaki3mymy",
   "license": "MIT",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "eslint": "^8.42.0",
     "jest": "^29.5.0",
     "prettier": "^2.8.8"
-  }
+  },
+  "type": "module"
 }
