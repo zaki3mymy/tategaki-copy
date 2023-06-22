@@ -33,4 +33,4 @@ const rotate = (text) => {
   return rotatedText;
 };
 
-module.exports = { rotate };
+export { rotate };
